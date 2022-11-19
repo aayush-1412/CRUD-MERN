@@ -13,8 +13,8 @@ import Navbar from "./Navbar";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Auth0Provider
-    domain="domain from auth0"
-    clientId="client id from auth0"
+    domain="dev-nljmj7hiqiooqvx4.us.auth0.com"
+    clientId="e9fOWV7Q9GwKxRgZoks4vYqw9YPIRvzS"
     redirectUri={window.location.origin}
   >
     <BrowserRouter>
